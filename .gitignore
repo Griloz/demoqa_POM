@@ -1,0 +1,11 @@
+# test output files
+*.log
+*.png
+*.xml
+*.html
+
+# system generated folders/files
+__pycache__/
+.pytest_cache/
+.vscode/
+assets/
