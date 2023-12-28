@@ -46,3 +46,15 @@
 12/27/2023 11:14:00 PM Launched the DemoQA
 12/27/2023 11:14:07 PM ScreenShot is created
 12/27/2023 11:14:11 PM Closed the browser
+12/27/2023 11:17:18 PM ########## Test Case: test_check_box ##########
+12/27/2023 11:17:18 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+12/27/2023 11:17:24 PM Opened Firefox Browser
+12/27/2023 11:17:24 PM Launched the DemoQA
+12/27/2023 11:17:32 PM ScreenShot is created
+12/27/2023 11:17:36 PM Closed the browser
+12/27/2023 11:26:37 PM ########## Test Case: test_check_box ##########
+12/27/2023 11:26:37 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+12/27/2023 11:26:43 PM Opened Firefox Browser
+12/27/2023 11:26:43 PM Launched the DemoQA
+12/27/2023 11:26:53 PM ScreenShot is created
+12/27/2023 11:26:56 PM Closed the browser

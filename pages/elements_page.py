@@ -37,16 +37,20 @@ class CheckBoxPage(BasePage):
 
     def click_random_checkbox(self):
         item_list = self.element_are_visible(self.locators.ITEM_LIST)
-        
-        # Проверяем, что список элементов не пуст
-        if item_list:
-            # Выбираем случайный элемент из списка
-            random_item = random.choice(item_list)
+        item = item_list[random.randint(1,15)]
+        self.go_to_element(item)
+        item.click()
+
+
+        # # Проверяем, что список элементов не пуст
+        # if item_list:
+        #     # Выбираем случайный элемент из списка
+        #     random_item = random.choice(item_list)
             
-            # Нажимаем на выбранный элемент
-            random_item.click()
+        #     # Нажимаем на выбранный элемент
+        #     random_item.click()
             
-            # Печатаем текст выбранного элемента
-            print(random_item.text)
-        else:
-            print("List of elements is empty")
+        #     # Печатаем текст выбранного элемента
+        #     print(random_item.text)
+        # else:
+        #     print("List of elements is empty")
