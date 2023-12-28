@@ -16,8 +16,7 @@ class TextBoxPage(BasePage):
         self.element_is_clickable(self.locators.SUBMIT).click()
 
         # Добавляем задержку на несколько секунд
-        sleep(5)
-
+        sleep(6)
         # Возвращаем данные после заполнения
         return full_name, email, current_address, permanent_address
 
