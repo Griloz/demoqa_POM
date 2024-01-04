@@ -48,11 +48,25 @@ class CheckBoxPage(BasePage):
                 count -=1
             else:
                 break
-                 
-
-
-
-        
         # item_list = self.element_are_visible(self.locators.ITEM_LIST)     
         # random_item = random.choice(item_list)
         # random_item.click()
+
+
+    def get_checked_checkboxes(self):
+        checked_list = self.element_are_visible(self.locators.CHECKED_ITEMS)
+        data = []
+        for i in checked_list:
+            title_item = i.find_element(By.XPATH, self.locators.TITLE_ITEM)
+            data.append(title_item.text)
+        return str(data).replace(' ', '').lower()
+
+
+    def get_output_result(self):
+        result_list = self.element_are_visible(self.locators.OUTPUT_RESULT)
+        data = []
+        for i in result_list:
+            data.append(i.text)
+        return str(data).replace(' ', '').replace('.doc', '').lower()
+
+
