@@ -1,6 +1,6 @@
 from selenium.webdriver.firefox.webdriver import WebDriver
 from generator import generated_person
-from pages.elements_page import CheckBoxPage, TextBoxPage
+from pages.elements_page import CheckBoxPage, RadioButtonPage, TextBoxPage
 from data import Person
 from time import sleep
 from generator.generator import generated_person
@@ -40,3 +40,18 @@ class TestCheckBox:
         print(output_result)
         assert input_checkbox == output_result, "checkboxes have't been selected"
 
+
+class TestRadioButton:
+    def test_radio_button(self, driver: WebDriver):
+        radio_button_page = RadioButtonPage(driver, 'https://demoqa.com/radio-button')
+        radio_button_page.open()
+        radio_button_page.click_on_the_radio_button('yes')
+        output_yes = radio_button_page.get_output_result()
+        radio_button_page.click_on_the_radio_button('impressive')
+        output_impressive = radio_button_page.get_output_result()
+        radio_button_page.click_on_the_radio_button('no')
+        output_no = radio_button_page.get_output_result()
+
+        assert output_yes == 'Yes', "'Yes' have not been selected"
+        assert output_impressive == 'Impressive', "'Impressive' have not been selected"
+        assert output_no == 'No', "'No' have not been selected"
