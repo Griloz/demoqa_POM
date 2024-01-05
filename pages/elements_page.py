@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
-from locators.elements_page_locators import CheckBoxPageLocators, TextBoxPageLocators
+from locators.elements_page_locators import CheckBoxPageLocators, RadioButtonLocators, TextBoxPageLocators
 from pages.base_page import BasePage
 
 class TextBoxPage(BasePage):
@@ -69,4 +69,17 @@ class CheckBoxPage(BasePage):
             data.append(i.text)
         return str(data).replace(' ', '').replace('.doc', '').lower()
 
+
+class RadioButtonPage(BasePage):
+    locators = RadioButtonLocators()
+
+    def click_on_the_radio_button(self, choice):
+        choices = {'yes':self.locators.YesButton,
+                   'impressive':self.locators.ImpressiveButton,
+                   'no': self.locators.NoButton}
+        self.element_is_visible(choices[choice]).click()
+    
+
+    def get_output_result(self):
+        return self.element_is_present(self.locators.OUTPUT_RESULT).text
 
