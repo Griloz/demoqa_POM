@@ -19,3 +19,33 @@ def driver(request):
     logger.info('ScreenShot is created')
     driver.quit()
     logger.info('Closed the browser')
+
+
+
+# @pytest.fixture(scope='function')
+# def driver(request):
+#     test_name = os.environ.get('PYTEST_CURRENT_TEST').split(':')[-1].split(' ')[0]
+#     logger.info(f'########## Test Case: {test_name} ##########')
+    
+#     driver = webdriver.Firefox()
+#     logger.info('Opened Firefox Browser')
+    
+#     driver.maximize_window()
+#     logger.info('Launched the DemoQA')
+    
+#     # Вывести данные в терминал
+#     if request.config.getoption("--verbose"):
+#         print(f"Test Case: {test_name}")
+
+#     yield driver
+    
+#     timestamp = datetime.now().strftime('%m%d%y_%H%M%S')
+#     driver.save_screenshot(fr".\evidence\{test_name}_{timestamp}.png")
+#     logger.info('ScreenShot is created')
+    
+#     # Вывести данные в терминал после завершения теста
+#     if request.config.getoption("--verbose"):
+#         print(f"Test Case: {test_name} completed")
+    
+#     driver.quit()
+#     logger.info('Closed the browser')   
