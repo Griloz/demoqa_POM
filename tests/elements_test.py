@@ -1,3 +1,5 @@
+import random
+from venv import logger
 from selenium.webdriver.firefox.webdriver import WebDriver
 from generator import generated_person
 from pages.elements_page import CheckBoxPage, RadioButtonPage, TextBoxPage, WebTablePage
@@ -63,7 +65,22 @@ class TestWebTable:
         web_table_page.open()
         new_person = web_table_page.add_new_person()
         table_result = web_table_page.check_new_added_person()
-        print(new_person)
-        print(table_result)
+
+        logger.info(f"New added {new_person}")
+        logger.info(f"Result on table: {table_result}")
+        # last_non_empty_result = next((result for result in reversed(table_result) if any(cell.strip() for cell in result)), None)
+        # logger.info(f"Result on table: {last_non_empty_result}")
         assert new_person in table_result
         sleep(3)
+
+
+    def test_web_table_serch_person(self, driver: WebDriver):
+        web_table_page = WebTablePage(driver, 'https://demoqa.com/webtables')
+        web_table_page.open()
+        key_word = web_table_page.add_new_person()[random.randint(0,5)]
+        web_table_page.serch_some_person(key_word)
+        table_result = web_table_page.check_serch_person(key_word)
+
+        logger.info(f"Key Word: {key_word}")
+        logger.info(f"Result: {table_result}")
+        assert key_word in table_result, "Person wasn't found"

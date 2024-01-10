@@ -1,45 +1,31 @@
-01/08/2024 11:10:45 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:10:45 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:10:51 PM Opened Firefox Browser
-01/08/2024 11:10:51 PM Launched the DemoQA
-01/08/2024 11:10:59 PM New added person data: ['Cierra\nVega\n39\ncierra@example.com\n10000\nInsurance', 'Alden\nCantrell\n45\nalden@example.com\n12000\nCompliance', 'Kierra\nGentry\n29\nkierra@example.com\n2000\nLegal', '       ', '       ', '       ', '       ', '       ', '       ', '       ']
-01/08/2024 11:11:02 PM ScreenShot is created
-01/08/2024 11:11:05 PM Closed the browser
-01/08/2024 11:23:10 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:23:10 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:23:16 PM Opened Firefox Browser
-01/08/2024 11:23:16 PM Launched the DemoQA
-01/08/2024 11:23:37 PM New added person data: [['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance'], ['Alden', 'Cantrell', '45', 'alden@example.com', '12000', 'Compliance'], ['Kierra', 'Gentry', '29', 'kierra@example.com', '2000', 'Legal'], ['       '], ['       '], ['       '], ['       '], ['       '], ['       '], ['       ']]
-01/08/2024 11:23:40 PM ScreenShot is created
-01/08/2024 11:23:43 PM Closed the browser
-01/08/2024 11:27:10 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:27:10 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:27:15 PM Opened Firefox Browser
-01/08/2024 11:27:16 PM Launched the DemoQA
-01/08/2024 11:27:26 PM ScreenShot is created
-01/08/2024 11:27:29 PM Closed the browser
-01/08/2024 11:28:11 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:28:11 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:28:17 PM Opened Firefox Browser
-01/08/2024 11:28:17 PM Launched the DemoQA
-01/08/2024 11:28:24 PM New added person data: [['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance'], ['Alden', 'Cantrell', '45', 'alden@example.com', '12000', 'Compliance'], ['Kierra', 'Gentry', '29', 'kierra@example.com', '2000', 'Legal'], ['Derrick', 'Murillo', '35', 'gilbertelizabeth@example.com', '95475', 'Broadcast presenter'], ['       '], ['       '], ['       '], ['       '], ['       '], ['       ']]
-01/08/2024 11:28:24 PM ScreenShot is created
-01/08/2024 11:28:28 PM Closed the browser
-01/08/2024 11:30:15 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:30:15 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:30:21 PM Opened Firefox Browser
-01/08/2024 11:30:21 PM Launched the DemoQA
-01/08/2024 11:30:29 PM ScreenShot is created
-01/08/2024 11:30:32 PM Closed the browser
-01/08/2024 11:32:24 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:32:24 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:32:30 PM Opened Firefox Browser
-01/08/2024 11:32:30 PM Launched the DemoQA
-01/08/2024 11:32:41 PM ScreenShot is created
-01/08/2024 11:32:44 PM Closed the browser
-01/08/2024 11:34:14 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:34:14 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:34:19 PM Opened Firefox Browser
-01/08/2024 11:34:19 PM Launched the DemoQA
-01/08/2024 11:34:35 PM ScreenShot is created
-01/08/2024 11:34:38 PM Closed the browser
+01/09/2024 11:40:16 PM ########## Test Case: test_web_table_add_person ##########
+01/09/2024 11:40:16 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/09/2024 11:40:22 PM Opened Firefox Browser
+01/09/2024 11:40:23 PM Launched the DemoQA
+01/09/2024 11:40:28 PM New ['Angel', 'Dennis', '80', 'russellmcdaniel@example.com', '71696', 'Textile designer']
+01/09/2024 11:40:28 PM Result: ['       ']
+01/09/2024 11:40:32 PM ScreenShot is created
+01/09/2024 11:40:35 PM Closed the browser
+01/09/2024 11:42:21 PM ########## Test Case: test_web_table_add_person ##########
+01/09/2024 11:42:21 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/09/2024 11:42:27 PM Opened Firefox Browser
+01/09/2024 11:42:27 PM Launched the DemoQA
+01/09/2024 11:42:33 PM New ['John', 'Alvarez', '12', 'nelsonchristian@example.org', '53483', 'Ecologist']
+01/09/2024 11:42:34 PM ScreenShot is created
+01/09/2024 11:42:37 PM Closed the browser
+01/09/2024 11:43:40 PM ########## Test Case: test_web_table_add_person ##########
+01/09/2024 11:43:40 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/09/2024 11:43:46 PM Opened Firefox Browser
+01/09/2024 11:43:46 PM Launched the DemoQA
+01/09/2024 11:43:55 PM New ['Elizabeth', 'Villegas', '54', 'tmercado@example.net', '52291', 'Phytotherapist']
+01/09/2024 11:43:55 PM Result: Phytotherapist
+01/09/2024 11:43:58 PM ScreenShot is created
+01/09/2024 11:44:02 PM Closed the browser
+01/09/2024 11:45:12 PM ########## Test Case: test_web_table_add_person ##########
+01/09/2024 11:45:12 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/09/2024 11:45:17 PM Opened Firefox Browser
+01/09/2024 11:45:17 PM Launched the DemoQA
+01/09/2024 11:45:22 PM New ['James', 'Sheppard', '73', 'taylor02@example.org', '84499', 'Minerals surveyor']
+01/09/2024 11:45:22 PM Result: ['James', 'Sheppard', '73', 'taylor02@example.org', '84499', 'Minerals surveyor']
+01/09/2024 11:45:25 PM ScreenShot is created
+01/09/2024 11:45:28 PM Closed the browser
