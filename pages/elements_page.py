@@ -117,7 +117,7 @@ class WebTablePage(BasePage):
         data = []
         for i in person_list:
             data.append(i.text.splitlines())
-            
+        # logger.info(f'New added person data: {data}') 
         return data
     
     def serch_some_person(self, key_word):

@@ -66,10 +66,9 @@ class TestWebTable:
         new_person = web_table_page.add_new_person()
         table_result = web_table_page.check_new_added_person()
 
-        logger.info(f"New added {new_person}")
-        logger.info(f"Result on table: {table_result}")
-        # last_non_empty_result = next((result for result in reversed(table_result) if any(cell.strip() for cell in result)), None)
-        # logger.info(f"Result on table: {last_non_empty_result}")
+        logger.info(f"New added {new_person}")           # last_non_empty_result = next((result for result in reversed(table_result) if any(cell.strip() for cell in result)), None)
+        logger.info(f"Result on table: {table_result}")  # logger.info(f"Result: {last_non_empty_result}")
+                
         assert new_person in table_result
         sleep(3)
 
@@ -84,3 +83,5 @@ class TestWebTable:
         logger.info(f"Key Word: {key_word}")
         logger.info(f"Result: {table_result}")
         assert key_word in table_result, "Person wasn't found"
+
+

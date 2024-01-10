@@ -29,3 +29,77 @@
 01/09/2024 11:45:22 PM Result: ['James', 'Sheppard', '73', 'taylor02@example.org', '84499', 'Minerals surveyor']
 01/09/2024 11:45:25 PM ScreenShot is created
 01/09/2024 11:45:28 PM Closed the browser
+01/09/2024 11:52:06 PM ########## Test Case: test_web_table_add_person ##########
+01/09/2024 11:52:06 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/09/2024 11:52:11 PM Opened Firefox Browser
+01/09/2024 11:52:11 PM Launched the DemoQA
+01/09/2024 11:52:28 PM New added ['Megan', 'Kim', '24', 'jacqueline21@example.org', '92510', 'Training and development officer']
+01/09/2024 11:52:28 PM Result on table: [['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance'], ['Alden', 'Cantrell', '45', 'alden@example.com', '12000', 'Compliance'], ['Kierra', 'Gentry', '29', 'kierra@example.com', '2000', 'Legal'], ['Megan', 'Kim', '24', 'jacqueline21@example.org', '92510', 'Training and development'], ['       '], ['       '], ['       '], ['       '], ['       '], ['       ']]
+01/09/2024 11:52:29 PM ScreenShot is created
+01/09/2024 11:52:32 PM Closed the browser
+01/09/2024 11:54:32 PM ########## Test Case: test_web_table_serch_person ##########
+01/09/2024 11:54:32 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/09/2024 11:54:38 PM Opened Firefox Browser
+01/09/2024 11:54:38 PM Launched the DemoQA
+01/09/2024 11:54:45 PM ScreenShot is created
+01/09/2024 11:54:49 PM Closed the browser
+01/09/2024 11:55:05 PM ########## Test Case: test_web_table_serch_person ##########
+01/09/2024 11:55:05 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/09/2024 11:55:11 PM Opened Firefox Browser
+01/09/2024 11:55:11 PM Launched the DemoQA
+01/09/2024 11:55:20 PM ScreenShot is created
+01/09/2024 11:55:24 PM Closed the browser
+01/09/2024 11:55:51 PM ########## Test Case: test_web_table_serch_person ##########
+01/09/2024 11:55:51 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/09/2024 11:55:56 PM Opened Firefox Browser
+01/09/2024 11:55:56 PM Launched the DemoQA
+01/09/2024 11:56:04 PM Key Word: Warden/ranger
+01/09/2024 11:56:04 PM Result: ['Andrew', 'Wright', '65', 'xosborn@example.com', '58575', 'Warden/ranger']
+01/09/2024 11:56:04 PM ScreenShot is created
+01/09/2024 11:56:07 PM Closed the browser
+01/09/2024 11:56:35 PM ########## Test Case: test_web_table_add_person ##########
+01/09/2024 11:56:35 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/09/2024 11:56:41 PM Opened Firefox Browser
+01/09/2024 11:56:41 PM Launched the DemoQA
+01/09/2024 11:56:48 PM New added ['Amber', 'Ray', '51', 'cynthiabowman@example.org', '22272', 'Medical laboratory scientific officer']
+01/09/2024 11:56:48 PM Result on table: [['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance'], ['Alden', 'Cantrell', '45', 'alden@example.com', '12000', 'Compliance'], ['Kierra', 'Gentry', '29', 'kierra@example.com', '2000', 'Legal'], ['Amber', 'Ray', '51', 'cynthiabowman@example.org', '22272', 'Medical laboratory scient'], ['       '], ['       '], ['       '], ['       '], ['       '], ['       ']]
+01/09/2024 11:56:48 PM ScreenShot is created
+01/09/2024 11:56:52 PM Closed the browser
+01/10/2024 12:01:31 AM ########## Test Case: test_web_table_add_person ##########
+01/10/2024 12:01:31 AM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/10/2024 12:01:37 AM Opened Firefox Browser
+01/10/2024 12:01:37 AM Launched the DemoQA
+01/10/2024 12:02:00 AM ScreenShot is created
+01/10/2024 12:02:03 AM Closed the browser
+01/10/2024 12:02:43 AM ########## Test Case: test_web_table_add_person ##########
+01/10/2024 12:02:43 AM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/10/2024 12:02:48 AM Opened Firefox Browser
+01/10/2024 12:02:48 AM Launched the DemoQA
+01/10/2024 12:02:57 AM New added ['Barbara', 'Hernandez', '23', 'jonwest@example.net', '24952', 'Air cabin crew']
+01/10/2024 12:02:57 AM Result on table: [['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance'], ['Alden', 'Cantrell', '45', 'alden@example.com', '12000', 'Compliance'], ['Kierra', 'Gentry', '29', 'kierra@example.com', '2000', 'Legal'], ['Barbara', 'Hernandez', '23', 'jonwest@example.net', '24952', 'Air cabin crew'], ['       '], ['       '], ['       '], ['       '], ['       '], ['       ']]
+01/10/2024 12:03:00 AM ScreenShot is created
+01/10/2024 12:03:04 AM Closed the browser
+01/10/2024 12:04:05 AM ########## Test Case: test_web_table_add_person ##########
+01/10/2024 12:04:05 AM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/10/2024 12:04:11 AM Opened Firefox Browser
+01/10/2024 12:04:11 AM Launched the DemoQA
+01/10/2024 12:04:23 AM New added ['Scott', 'Brown', '76', 'floresjose@example.net', '32013', 'Sports therapist']
+01/10/2024 12:04:23 AM Result: ['Scott', 'Brown', '76', 'floresjose@example.net', '32013', 'Sports therapist']
+01/10/2024 12:04:26 AM ScreenShot is created
+01/10/2024 12:04:29 AM Closed the browser
+01/10/2024 12:04:50 AM ########## Test Case: test_web_table_add_person ##########
+01/10/2024 12:04:50 AM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/10/2024 12:04:56 AM Opened Firefox Browser
+01/10/2024 12:04:56 AM Launched the DemoQA
+01/10/2024 12:05:01 AM New added ['Justin', 'Jones', '20', 'imoses@example.org', '88197', 'Equality and diversity officer']
+01/10/2024 12:05:01 AM Result on table: [['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance'], ['Alden', 'Cantrell', '45', 'alden@example.com', '12000', 'Compliance'], ['Kierra', 'Gentry', '29', 'kierra@example.com', '2000', 'Legal'], ['Justin', 'Jones', '20', 'imoses@example.org', '88197', 'Equality and diversity of'], ['       '], ['       '], ['       '], ['       '], ['       '], ['       ']]
+01/10/2024 12:05:01 AM ScreenShot is created
+01/10/2024 12:05:05 AM Closed the browser
+01/10/2024 12:06:10 AM ########## Test Case: test_web_table_add_person ##########
+01/10/2024 12:06:10 AM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/10/2024 12:06:16 AM Opened Firefox Browser
+01/10/2024 12:06:16 AM Launched the DemoQA
+01/10/2024 12:06:21 AM New added ['Kevin', 'Mitchell', '20', 'sanderschad@example.org', '61453', 'Science writer']
+01/10/2024 12:06:21 AM Result on table: [['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance'], ['Alden', 'Cantrell', '45', 'alden@example.com', '12000', 'Compliance'], ['Kierra', 'Gentry', '29', 'kierra@example.com', '2000', 'Legal'], ['Kevin', 'Mitchell', '20', 'sanderschad@example.org', '61453', 'Science writer'], ['       '], ['       '], ['       '], ['       '], ['       '], ['       ']]
+01/10/2024 12:06:24 AM ScreenShot is created
+01/10/2024 12:06:27 AM Closed the browser
