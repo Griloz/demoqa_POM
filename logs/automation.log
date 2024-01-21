@@ -1,45 +1,122 @@
-01/08/2024 11:10:45 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:10:45 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:10:51 PM Opened Firefox Browser
-01/08/2024 11:10:51 PM Launched the DemoQA
-01/08/2024 11:10:59 PM New added person data: ['Cierra\nVega\n39\ncierra@example.com\n10000\nInsurance', 'Alden\nCantrell\n45\nalden@example.com\n12000\nCompliance', 'Kierra\nGentry\n29\nkierra@example.com\n2000\nLegal', '       ', '       ', '       ', '       ', '       ', '       ', '       ']
-01/08/2024 11:11:02 PM ScreenShot is created
-01/08/2024 11:11:05 PM Closed the browser
-01/08/2024 11:23:10 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:23:10 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:23:16 PM Opened Firefox Browser
-01/08/2024 11:23:16 PM Launched the DemoQA
-01/08/2024 11:23:37 PM New added person data: [['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance'], ['Alden', 'Cantrell', '45', 'alden@example.com', '12000', 'Compliance'], ['Kierra', 'Gentry', '29', 'kierra@example.com', '2000', 'Legal'], ['       '], ['       '], ['       '], ['       '], ['       '], ['       '], ['       ']]
-01/08/2024 11:23:40 PM ScreenShot is created
-01/08/2024 11:23:43 PM Closed the browser
-01/08/2024 11:27:10 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:27:10 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:27:15 PM Opened Firefox Browser
-01/08/2024 11:27:16 PM Launched the DemoQA
-01/08/2024 11:27:26 PM ScreenShot is created
-01/08/2024 11:27:29 PM Closed the browser
-01/08/2024 11:28:11 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:28:11 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:28:17 PM Opened Firefox Browser
-01/08/2024 11:28:17 PM Launched the DemoQA
-01/08/2024 11:28:24 PM New added person data: [['Cierra', 'Vega', '39', 'cierra@example.com', '10000', 'Insurance'], ['Alden', 'Cantrell', '45', 'alden@example.com', '12000', 'Compliance'], ['Kierra', 'Gentry', '29', 'kierra@example.com', '2000', 'Legal'], ['Derrick', 'Murillo', '35', 'gilbertelizabeth@example.com', '95475', 'Broadcast presenter'], ['       '], ['       '], ['       '], ['       '], ['       '], ['       ']]
-01/08/2024 11:28:24 PM ScreenShot is created
-01/08/2024 11:28:28 PM Closed the browser
-01/08/2024 11:30:15 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:30:15 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:30:21 PM Opened Firefox Browser
-01/08/2024 11:30:21 PM Launched the DemoQA
-01/08/2024 11:30:29 PM ScreenShot is created
-01/08/2024 11:30:32 PM Closed the browser
-01/08/2024 11:32:24 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:32:24 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:32:30 PM Opened Firefox Browser
-01/08/2024 11:32:30 PM Launched the DemoQA
-01/08/2024 11:32:41 PM ScreenShot is created
-01/08/2024 11:32:44 PM Closed the browser
-01/08/2024 11:34:14 PM ########## Test Case: test_web_table_add_person ##########
-01/08/2024 11:34:14 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
-01/08/2024 11:34:19 PM Opened Firefox Browser
-01/08/2024 11:34:19 PM Launched the DemoQA
-01/08/2024 11:34:35 PM ScreenShot is created
-01/08/2024 11:34:38 PM Closed the browser
+01/15/2024 10:42:42 PM ########## Test Case: test_web_table_update_person_info ##########
+01/15/2024 10:42:43 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/15/2024 10:42:48 PM Opened Firefox Browser
+01/15/2024 10:42:49 PM Launched the DemoQA
+01/15/2024 10:43:19 PM ScreenShot is created
+01/15/2024 10:43:22 PM Closed the browser
+01/15/2024 10:44:37 PM ########## Test Case: test_web_table_update_person_info ##########
+01/15/2024 10:44:37 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/15/2024 10:44:43 PM Opened Firefox Browser
+01/15/2024 10:44:43 PM Launched the DemoQA
+01/15/2024 10:45:03 PM 39
+01/15/2024 10:45:03 PM ['Kevin', 'Deleon', '39', 'kelly97@example.org', '31002', 'Civil engineer, contracti']
+01/15/2024 10:45:03 PM ScreenShot is created
+01/15/2024 10:45:06 PM Closed the browser
+01/15/2024 11:11:56 PM ########## Test Case: test_web_table_delete_person ##########
+01/15/2024 11:11:56 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/15/2024 11:12:02 PM Opened Firefox Browser
+01/15/2024 11:12:02 PM Launched the DemoQA
+01/15/2024 11:12:13 PM ScreenShot is created
+01/15/2024 11:12:16 PM Closed the browser
+01/15/2024 11:13:58 PM ########## Test Case: test_web_table_delete_person ##########
+01/15/2024 11:13:58 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/15/2024 11:14:03 PM Opened Firefox Browser
+01/15/2024 11:14:03 PM Launched the DemoQA
+01/15/2024 11:14:29 PM ScreenShot is created
+01/15/2024 11:14:32 PM Closed the browser
+01/17/2024 10:54:22 PM ########## Test Case: test_web_table_delete_person ##########
+01/17/2024 10:54:22 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 10:54:29 PM Opened Firefox Browser
+01/17/2024 10:54:30 PM Launched the DemoQA
+01/17/2024 10:54:37 PM ScreenShot is created
+01/17/2024 10:54:40 PM Closed the browser
+01/17/2024 11:04:15 PM ########## Test Case: test_web_table_change_count_row ##########
+01/17/2024 11:04:15 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 11:04:21 PM Opened Firefox Browser
+01/17/2024 11:04:21 PM Launched the DemoQA
+01/17/2024 11:04:36 PM ScreenShot is created
+01/17/2024 11:04:38 PM Closed the browser
+01/17/2024 11:14:26 PM ########## Test Case: test_web_table_change_count_row ##########
+01/17/2024 11:14:26 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 11:14:31 PM Opened Firefox Browser
+01/17/2024 11:14:31 PM Launched the DemoQA
+01/17/2024 11:14:37 PM ScreenShot is created
+01/17/2024 11:14:40 PM Closed the browser
+01/17/2024 11:15:27 PM ########## Test Case: test_web_table_change_count_row ##########
+01/17/2024 11:15:27 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 11:15:33 PM Opened Firefox Browser
+01/17/2024 11:15:33 PM Launched the DemoQA
+01/17/2024 11:15:41 PM ScreenShot is created
+01/17/2024 11:15:44 PM Closed the browser
+01/17/2024 11:17:29 PM ########## Test Case: test_web_table_change_count_row ##########
+01/17/2024 11:17:29 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 11:17:34 PM Opened Firefox Browser
+01/17/2024 11:17:34 PM Launched the DemoQA
+01/17/2024 11:17:49 PM ScreenShot is created
+01/17/2024 11:17:52 PM Closed the browser
+01/17/2024 11:19:06 PM ########## Test Case: test_web_table_change_count_row ##########
+01/17/2024 11:19:06 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 11:19:11 PM Opened Firefox Browser
+01/17/2024 11:19:11 PM Launched the DemoQA
+01/17/2024 11:19:21 PM ScreenShot is created
+01/17/2024 11:19:24 PM Closed the browser
+01/17/2024 11:20:57 PM ########## Test Case: test_web_table_change_count_row ##########
+01/17/2024 11:20:57 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 11:21:03 PM Opened Firefox Browser
+01/17/2024 11:21:03 PM Launched the DemoQA
+01/17/2024 11:21:13 PM ScreenShot is created
+01/17/2024 11:21:16 PM Closed the browser
+01/17/2024 11:24:20 PM ########## Test Case: test_web_table_change_count_row ##########
+01/17/2024 11:24:20 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 11:24:26 PM Opened Firefox Browser
+01/17/2024 11:24:26 PM Launched the DemoQA
+01/17/2024 11:24:36 PM ScreenShot is created
+01/17/2024 11:24:39 PM Closed the browser
+01/17/2024 11:25:55 PM ########## Test Case: test_web_table_change_count_row ##########
+01/17/2024 11:25:55 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 11:26:01 PM Opened Firefox Browser
+01/17/2024 11:26:01 PM Launched the DemoQA
+01/17/2024 11:26:04 PM ScreenShot is created
+01/17/2024 11:26:07 PM Closed the browser
+01/17/2024 11:26:51 PM ########## Test Case: test_web_table_change_count_row ##########
+01/17/2024 11:26:51 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 11:26:56 PM Opened Firefox Browser
+01/17/2024 11:26:57 PM Launched the DemoQA
+01/17/2024 11:26:57 PM ScreenShot is created
+01/17/2024 11:27:00 PM Closed the browser
+01/17/2024 11:28:17 PM ########## Test Case: test_web_table_change_count_row ##########
+01/17/2024 11:28:17 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 11:28:22 PM Opened Firefox Browser
+01/17/2024 11:28:23 PM Launched the DemoQA
+01/17/2024 11:28:35 PM ScreenShot is created
+01/17/2024 11:28:38 PM Closed the browser
+01/17/2024 11:28:57 PM ########## Test Case: test_web_table_change_count_row ##########
+01/17/2024 11:28:58 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 11:29:03 PM Opened Firefox Browser
+01/17/2024 11:29:03 PM Launched the DemoQA
+01/17/2024 11:29:19 PM ScreenShot is created
+01/17/2024 11:29:22 PM Closed the browser
+01/17/2024 11:33:57 PM ########## Test Case: test_web_table_change_count_row ##########
+01/17/2024 11:33:57 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/17/2024 11:34:03 PM Opened Firefox Browser
+01/17/2024 11:34:03 PM Launched the DemoQA
+01/17/2024 11:34:21 PM ScreenShot is created
+01/17/2024 11:34:24 PM Closed the browser
+01/18/2024 08:00:24 PM ########## Test Case: test_web_table_change_count_row ##########
+01/18/2024 08:00:24 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/18/2024 08:00:30 PM Opened Firefox Browser
+01/18/2024 08:00:31 PM Launched the DemoQA
+01/18/2024 08:00:44 PM ScreenShot is created
+01/18/2024 08:00:47 PM Closed the browser
+01/18/2024 08:05:32 PM ########## Test Case: test_web_table_change_count_row ##########
+01/18/2024 08:05:32 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/18/2024 08:05:38 PM Opened Firefox Browser
+01/18/2024 08:05:38 PM Launched the DemoQA
+01/18/2024 08:05:52 PM ScreenShot is created
+01/18/2024 08:05:56 PM Closed the browser
+01/20/2024 10:14:23 PM ########## Test Case: test_web_table_change_count_row ##########
+01/20/2024 10:14:23 PM Applicable driver not found; attempting to install with Selenium Manager (Beta)
+01/20/2024 10:14:30 PM Opened Firefox Browser
+01/20/2024 10:14:30 PM Launched the DemoQA
+01/20/2024 10:14:52 PM ScreenShot is created
+01/20/2024 10:14:55 PM Closed the browser

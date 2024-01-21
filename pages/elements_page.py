@@ -89,9 +89,10 @@ class RadioButtonPage(BasePage):
 class WebTablePage(BasePage):
     locators = WebTablePageLocators()
 
-    def add_new_person(self):
+    def add_new_person(self):  #,(self,count = 3) (добавить колличество)
         count = 1
         while count != 0:
+        # for _ in range(count):  (добавить колличество)
             person_info = next(generated_person())
             firstname = person_info.firstname
             lastname = person_info.lastname
@@ -109,6 +110,7 @@ class WebTablePage(BasePage):
             self.element_is_visible(self.locators.SUBMIT).click()
             count -=1
             return [firstname, lastname, str(age), email, str(salary), department]
+        # return [firstname, lastname, str(age), email, str(salary), department] (добавить колличество)
          
     def check_new_added_person(self):
         person_list = self.element_are_present(self.locators.FULL_PEOPLE_LIST)
@@ -117,4 +119,43 @@ class WebTablePage(BasePage):
             data.append(i.text.splitlines())
         # logger.info(f'New added person data: {data}') 
         return data
-         # Логирование в файл
+    
+    def serch_some_person(self, key_word):
+        self.element_is_visible(self.locators.SEARCH_INPUT).send_keys(key_word)  
+
+    def check_serch_person(self, key_word):
+        delete_buttons = self.element_are_present(self.locators.DELETE_BUTTON)
+        for delete_button in delete_buttons:
+            row = delete_button.find_element(By.XPATH, self.locators.ROW_PARENT)
+        return row.text.splitlines()
+    
+    def update_person_info(self):
+        person_info = next(generated_person())
+        age = person_info.age
+        self.element_is_visible(self.locators.UPDATE_BUTTON).click()
+        self.element_is_visible(self.locators.AGE_INPUT).clear()
+        self.element_is_visible(self.locators.AGE_INPUT).send_keys(age)
+        self.element_is_visible(self.locators.SUBMIT).click()
+        return str(age)
+    
+    def delet_person(self):
+        self.element_is_visible(self.locators.DELETE_BUTTON).click()
+
+    def check_deleted(self):
+        return self.element_is_present(self.locators.NO_ROWS_FOUND).text 
+
+
+    def select_up_to_some_rows(self):
+        count = [5, 10, 20, 25, 50, 100]
+        data = []
+        for i in count:
+            count_row_button = self.element_is_visible(self.locators.COUNT_ROWS_LIST) 
+            self.go_to_element(count_row_button)
+            count_row_button.click()
+            self.element_is_visible((By.CSS_SELECTOR,f'option[value="{i}"]')).click()
+            data.append(self.check_count_rows)
+        return data
+
+    def check_count_rows(self):
+        list_rows = self.element_are_present(self.locators.FULL_PEOPLE_LIST)
+        return len(list_rows)
