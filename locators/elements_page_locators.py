@@ -18,6 +18,7 @@ class TextBoxPageLocators:
     CREATED_PERMANENT_ADDRESS= (By.CSS_SELECTOR, '#output #permanentAddress')
 
 
+
 class CheckBoxPageLocators:
 
     EXPAND_ALL_BUTTON = (By.CSS_SELECTOR, 'button[title="Expand all"]')
@@ -34,6 +35,7 @@ class RadioButtonPageLocators:
     ImpressiveButton = (By.CSS_SELECTOR, 'label[class^="custom-control"][for="impressiveRadio"]')
     NoButton = (By.CSS_SELECTOR, 'label[class^="custom-control"][for="noRadio"]')
     OUTPUT_RESULT = (By.CSS_SELECTOR, 'p span[class="text-success"]')
+
 
 
 class WebTablePageLocators:
@@ -57,3 +59,14 @@ class WebTablePageLocators:
 
     #update
     UPDATE_BUTTON = (By.CSS_SELECTOR,'span[title="Edit"]')
+
+
+class ButtonsPageLocators:
+    DOUBLE_BUTTON  = (By.CSS_SELECTOR, 'button[id="doubleClickBtn"]') 
+    RIGHT_CLICK_BUTTON  = (By.CSS_SELECTOR, 'button[id="rightClickBtn"]')
+    CLICK_ME_BUTTON  = (By.XPATH, '//div[3]/button')
+
+    #result
+    SUCCESS_DOUBLE  = (By.CSS_SELECTOR, 'p[id="doubleClickMessage"]')  
+    SUCCESS_RIGHT  = (By.CSS_SELECTOR, 'p[id="rightClickMessage"]')   
+    SUCCESS_CLICK_ME  = (By.CSS_SELECTOR, 'p[id="dynamicClickMessage"]') 

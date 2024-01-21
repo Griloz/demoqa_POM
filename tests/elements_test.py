@@ -2,7 +2,7 @@ import random
 from venv import logger
 from selenium.webdriver.firefox.webdriver import WebDriver
 from generator import generated_person
-from pages.elements_page import CheckBoxPage, RadioButtonPage, TextBoxPage, WebTablePage
+from pages.elements_page import ButtonsPage, CheckBoxPage, RadioButtonPage, TextBoxPage, WebTablePage
 from data import Person
 from time import sleep
 from generator.generator import generated_person
@@ -60,6 +60,7 @@ class TestRadioButton:
 
 
 class TestWebTable:
+
     def test_web_table_add_person(self, driver: WebDriver):
         web_table_page = WebTablePage(driver, 'https://demoqa.com/webtables')
         web_table_page.open()
@@ -111,4 +112,17 @@ class TestWebTable:
         web_table_page = WebTablePage(driver, 'https://demoqa.com/webtables')
         web_table_page.open()
         count = web_table_page.select_up_to_some_rows()
-        assert count == [5, 10, 20, 25, 50, 100], 'The number of rows can not be change over 25'
+        assert count == [5, 10, 20, 25, 50, 100], 'The number of rows can not be change over 2'
+
+
+class TestButtonsPage:
+
+    def test_different_click_on_the_buttons(self, driver: WebDriver):
+        button_page = ButtonsPage(driver, 'https://demoqa.com/buttons')
+        button_page.open()
+        double = button_page.click_on_different_button('double') 
+        right = button_page.click_on_different_button('right')
+        click = button_page.click_on_different_button('click')
+        assert double
+        assert right
+        assert click

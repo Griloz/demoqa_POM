@@ -6413,3 +6413,80 @@ Dynamically enable window occlusion 1
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1705811880651	geckodriver	INFO	Listening on 127.0.0.1:52631
+1705811883701	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52632" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\grilo\\AppData\\Local\\Temp\\rust_mozprofileKarVsP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705811884045	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705811884113	Marionette	INFO	Listening on port 52642
+WebDriver BiDi listening on ws://127.0.0.1:52632
+Read port: 52642
+1705811884275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52632/devtools/browser/4acb0102-baae-4c12-94f8-b6f8ac8c03be
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 414: TypeError: c(...).setup is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IHSjRKKj3q_1Pt3c2sGWHmUCy_Bw5n5yhKh9CWyZSw4.js line 2 > eval line 5657 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705811892243	Marionette	INFO	Stopped listening on port 52642
+JavaScript warning: https://jsc.mgid.com/a/d/ad.plus.1461777.es6.js, line 102: Script terminated by timeout at:
+Ui</_createWorker/</this.app.context._mgqi<@https://jsc.mgid.com/a/d/ad.plus.1461777.es6.js:102:38092
+
+JavaScript warning: https://tags.crwdcntrl.net/lt/c/16589/sync.min.js, line 1: Script terminated by timeout at:
+sync16589_2.prototype.O/<@https://tags.crwdcntrl.net/lt/c/16589/sync.min.js:1:30610
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1705812028251	geckodriver	INFO	Listening on 127.0.0.1:52925
+1705812031276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52926" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\grilo\\AppData\\Local\\Temp\\rust_mozprofile1zwluK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705812031590	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705812031653	Marionette	INFO	Listening on port 52935
+WebDriver BiDi listening on ws://127.0.0.1:52926
+Read port: 52935
+1705812031808	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52926/devtools/browser/d9495195-7403-44c6-9e65-0a92787fd9c4
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 414: TypeError: c(...).setup is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IHSjRKKj3q_1Pt3c2sGWHmUCy_Bw5n5yhKh9CWyZSw4.js line 2 > eval line 6844 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705812046685	Marionette	INFO	Stopped listening on port 52935
+JavaScript warning: https://jsc.mgid.com/a/d/ad.plus.1461776.es6.js, line 109: Script terminated by timeout at:
+Ui</_createWorker/</this.app.context._mgqi<@https://jsc.mgid.com/a/d/ad.plus.1461776.es6.js:109:41351
+
+JavaScript warning: https://tags.crwdcntrl.net/lt/c/16589/sync.min.js, line 1: Script terminated by timeout at:
+get@https://tags.crwdcntrl.net/lt/c/16589/sync.min.js:1:22121
+sync16589_2.prototype.O@https://tags.crwdcntrl.net/lt/c/16589/sync.min.js:1:30572
+sync16589_2.prototype.O/<@https://tags.crwdcntrl.net/lt/c/16589/sync.min.js:1:30612
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1705812383749	geckodriver	INFO	Listening on 127.0.0.1:53383
+1705812386796	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53384" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\grilo\\AppData\\Local\\Temp\\rust_mozprofileoGu73v"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705812387112	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705812387177	Marionette	INFO	Listening on port 53393
+WebDriver BiDi listening on ws://127.0.0.1:53384
+Read port: 53393
+1705812387327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53384/devtools/browser/c9b6c28c-26ab-403d-afce-fc0bf14f9686
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 414: TypeError: c(...).setup is not a function
+1705812396414	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/IHSjRKKj3q_1Pt3c2sGWHmUCy_Bw5n5yhKh9CWyZSw4.js line 2 > eval line 2376 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705812398358	Marionette	INFO	Stopped listening on port 53393
+JavaScript warning: https://jsc.mgid.com/a/d/ad.plus.1461776.es6.js, line 109: Script terminated by timeout at:
+Ui</_createWorker/</this.app.context._mgqi<@https://jsc.mgid.com/a/d/ad.plus.1461776.es6.js:109:41351
+
+JavaScript warning: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202401180101/pubads_impl.js?cb=31080550, line 10: Script terminated by timeout at:
+PG@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202401180101/pubads_impl.js?cb=31080550:10:214846
+mN/a.j<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202401180101/pubads_impl.js?cb=31080550:10:335483
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
