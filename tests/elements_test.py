@@ -82,6 +82,33 @@ class TestWebTable:
 
         logger.info(f"Key Word: {key_word}")
         logger.info(f"Result: {table_result}")
-        assert key_word in table_result, "Person wasn't found"
+        assert key_word in table_result, "The Person wasn't found"
+
+    
+    def test_web_table_update_person_info(self, driver: WebDriver):
+        web_table_page = WebTablePage(driver, 'https://demoqa.com/webtables')
+        web_table_page.open()
+        lastname = web_table_page.add_new_person()[1]
+        web_table_page.serch_some_person(lastname)
+        age = web_table_page.update_person_info()
+        row = web_table_page.check_serch_person(age)
+        logger.info(age)
+        logger.info(row)
+        assert age in row, "The person card has't changed"
 
 
+    def test_web_table_delete_person(self, driver: WebDriver):
+        web_table_page = WebTablePage(driver, 'https://demoqa.com/webtables')
+        web_table_page.open()
+        email = web_table_page.add_new_person()[3]
+        web_table_page.serch_some_person(email)
+        web_table_page.delet_person()
+        text = web_table_page.check_deleted()
+        assert text == 'No rows found'
+
+
+    def test_web_table_change_count_row(self, driver: WebDriver):
+        web_table_page = WebTablePage(driver, 'https://demoqa.com/webtables')
+        web_table_page.open()
+        count = web_table_page.select_up_to_some_rows()
+        assert count == [5, 10, 20, 25, 50, 100], 'The number of rows can not be change over 25'
